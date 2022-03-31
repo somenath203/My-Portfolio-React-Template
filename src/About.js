@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 
 const About = ({title, desone, desctwo, resumeTitle}) => {
@@ -32,7 +33,7 @@ const About = ({title, desone, desctwo, resumeTitle}) => {
         <div className="text-center mt-4">
           <a
             className="btn btn-xl btn-outline-light"
-            href="https://startbootstrap.com/theme/freelancer/"
+            href="#"
           >
             <i className="fas fa-download me-2"></i>
             {resumeTitle}
